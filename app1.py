@@ -11,7 +11,7 @@ from sklearn.preprocessing import LabelEncoder
 def main():
     st.title("Prédiction du prix d'une maison avec un Perceptron multicouche")
     st.subheader("Auteur : Youssouf")
-    data=pd.read_csv('/content/Drive/MyDrive/house_price/data.csv')
+    data=pd.read_csv('data.csv')
 
     st.sidebar.checkbox('Afficher les données brutes', False)
 
